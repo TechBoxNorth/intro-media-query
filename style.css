@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.logo {
+  font-size: 70px;
+}
+
+a {
+  font-size: 30px;
+}
+
+nav {
+  background-color: lightgray;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  gap: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  nav {
+    background-color: rgb(201, 140, 145);
+  }
+}
+
+@media screen and (max-width: 570px) {
+  nav {
+    flex-direction: column;
+  }
+
+  .logo {
+    font-size: 50px;
+  }
+
+  a {
+    font-size: 20px;
+  }
+}
